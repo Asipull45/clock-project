@@ -1,0 +1,65 @@
+body{
+    background-color: #000000;
+}
+
+#clockContainer{
+    position: relative;
+    border-radius: 50%;
+    margin: auto;
+     height: 40vw;
+     width: 40vw;
+     background: url(/assest/download.png) no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second{
+    position: absolute;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    transform-origin: bottom ;
+}
+
+#hour{
+    width: 1%;
+    height: 24%;
+    top: 25%;
+    left: 50.5%;
+    background-color: #4baeff;
+}
+
+
+#minute{
+    width: 0.9%;
+    height: 30%;
+    top: 20%;
+    left: 50.5%;
+    background-color: #4bffb4cf;
+}
+
+#second{
+    width: 0.5%;
+    height: 34%;
+    top: 16%;
+    left: 50.5%;
+    background-color: #ff4b4bdd;
+}
+#circle{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50.5%;
+    border-radius: 50%;
+    width: 4%;
+    height: 4%;
+    z-index: 9999;
+    background-color: black;
+}
+
+footer{
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+}
+
+footer a{
+    color: rgb(128, 164, 195);
+}
